@@ -12,7 +12,6 @@
   <Experience />
   <Education />
   <Socials />
-  <a href="#about">about</a>
 </main>
 
 <style>

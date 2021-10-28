@@ -3,14 +3,16 @@
 
 <main>
   <h1 id="about">About Me</h1>
-  <p>My name is Kyle and I am acurrently a Software Developer at Citi</p>
   <p>
-    Good morning. There’s been a lot going on, so we want to make sure you
-    didn’t miss our giveaway: Refer 5 friends to the Brew this week and you’ll
-    receive a limited edition pair of Morning Brew headphones—perfect for
-    blasting “Easy on Me” on repeat. And there's a bonus: If you refer 5 people,
-    you’ll be entered into a drawing to win a 5-night stay at any Hilton Hotel &
-    Resort in the world. Would be a pretty epic way to restart your travel life
-    if you’ve been stuck in this country since last March
+    My name is Kyle and I am a new graduate Software Developer with a passion
+    for technology, programming, sports and video games. I graduated from
+    Queen's University in 2021 with a degree in Engineering.
+  </p>
+  <p>
+    I made this website to talk about myself, showcase projects I have made and
+    further my own web development skills. Feel free to contact me via my social
+    links at the bottom of this page, I am eager to hear any feedback or
+    critique on this website and I am always open to chat. Thanks for stopping
+    by!
   </p>
 </main>
