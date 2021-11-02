@@ -6,8 +6,8 @@
   import Navbar from "./components/navibar.svelte";
 </script>
 
+<Navbar />
 <main>
-  <Navbar />
   <About />
   <Experience />
   <Education />
@@ -15,4 +15,9 @@
 </main>
 
 <style>
+  main {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 </style>

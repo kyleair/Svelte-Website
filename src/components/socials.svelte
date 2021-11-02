@@ -20,4 +20,7 @@
 </main>
 
 <style>
+  a {
+    padding: 1%;
+  }
 </style>
