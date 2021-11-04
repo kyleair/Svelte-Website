@@ -4,6 +4,7 @@
   import Education from "./components/education.svelte";
   import Socials from "./components/socials.svelte";
   import Navbar from "./components/navibar.svelte";
+  import Projects from "./components/projects.svelte";
 </script>
 
 <Navbar />
@@ -11,6 +12,7 @@
   <About />
   <Experience />
   <Education />
+  <Projects />
   <Socials />
 </main>
 
@@ -19,5 +21,6 @@
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
+    padding-top: 10%;
   }
 </style>
