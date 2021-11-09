@@ -2,7 +2,7 @@
 </script>
 
 <main>
-  <h1 id="education">Education</h1>
+  <h1 id="education"><span id="anchor" />Education 📚</h1>
   <div class="education-block">
     <h2>Queen's University</h2>
     <h3>Applied Mathematics and Computer Engineering</h3>

@@ -2,7 +2,7 @@
 </script>
 
 <main>
-  <h1 id="projects">Projects</h1>
+  <h1 id="projects"><span id="anchor" />Projects 💻</h1>
   <div class="projects-block">
     <h2>My tings</h2>
     <h3>Applied Mathematics and Computer Engineering</h3>

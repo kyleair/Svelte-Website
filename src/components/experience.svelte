@@ -3,14 +3,14 @@
 </script>
 
 <main>
-  <h1 id="experience">Experience</h1>
+  <h1 id="experience"><span id="anchor" />Experience 👔</h1>
   <div class="experience-area">
     {#each experiences as experience}
       <div class="experience-block">
         <h2>{experience.company}</h2>
         <h3>{experience.title}</h3>
         <h4>{experience.timeStarted} - {experience.timeEnded}</h4>
-        <p>I did this this and this wieoufdnewoifnewoeweeeeeeeeeeeeeee</p>
+        <p>{experience.shortDescription}</p>
       </div>
     {/each}
   </div>

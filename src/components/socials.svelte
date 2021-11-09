@@ -3,7 +3,7 @@
 </script>
 
 <main>
-  <h1 id="socials">Socials</h1>
+  <h1 id="socials"><span id="anchor" />Socials ☎️</h1>
 
   <a href="https://github.com/kyleair/Svelte-Website"
     ><SocialIcons alt="" network="github" fgColor="#ffffff" /></a
@@ -22,5 +22,8 @@
 <style>
   a {
     padding: 1%;
+  }
+  main {
+    padding-bottom: 2vh;
   }
 </style>
