@@ -13,12 +13,12 @@
 <style>
   .education-block {
     border-color: black;
-    margin: auto;
     border-style: solid;
-    border-width: 3px;
+    border-width: 1px;
     border-radius: 50px;
+    background-color: rgb(176, 224, 230, 0.3);
+    margin: auto;
     padding: 10px;
-    background-color: lightcyan;
     width: 800px;
   }
 </style>

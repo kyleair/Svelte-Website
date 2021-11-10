@@ -7,20 +7,27 @@
   import Projects from "./components/projects.svelte";
 </script>
 
-<Navbar />
-<main>
-  <About />
-  <Experience />
-  <Education />
-  <Projects />
-  <Socials />
-</main>
+<html lang="en">
+  <div class="container">
+    <Navbar />
+    <div class="content">
+      <About />
+      <Experience />
+      <Education />
+      <Projects />
+      <Socials />
+    </div>
+  </div>
+</html>
 
 <style>
-  main {
+  .content {
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
     padding-top: 5%;
+  }
+  html {
+    background-color: #f9f4f4;
   }
 </style>

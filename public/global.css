@@ -3,7 +3,7 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 main {
-  padding-bottom: 8vh;
+  padding-bottom: 5vh;
 }
 
 h1 {
@@ -18,6 +18,7 @@ h1 {
 }
 h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
 }
 
 a {
@@ -30,12 +31,20 @@ a:hover {
   text-decoration: underline;
   color: orange;
 }
+
 [id="anchor"]::before {
   content: "";
   display: block;
-  height: 11vh;
-  margin-top: -11vh;
+  height: 9vh;
+  margin-top: -9vh;
   visibility: hidden;
+}
+
+@media screen and (min-height: 1100px) {
+  [id="anchor"]::before {
+    height: 7vh;
+    margin-top: -7vh;
+  }
 }
 
 p {
