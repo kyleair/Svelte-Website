@@ -25,7 +25,7 @@
     text-align: center;
     margin-left: 20%;
     margin-right: 20%;
-    padding-top: 5%;
+    padding-top: 4%;
   }
   html {
     background-color: #f9f4f4;

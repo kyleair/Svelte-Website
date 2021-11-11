@@ -4,20 +4,22 @@ const experiencecontent = [
         title: "Software Developer" ,
         timeStarted: "July 2021",
         timeEnded: "Present",
-        shortDescription: "Frontend development of application",
+        shortDescription: "Both frontend and backend development of commercial client banking portal.",
         imgPath: "./assets/citi.png",
         imgWidth: 90,
-        imgHeight: 57
+        imgHeight: 57,
+        link: "https://www.citigroup.com/citi/"
     },
     {
         company: "QMIND",
         title: "Machine Learning Engineer" ,
         timeStarted: "September 2019",
         timeEnded: "April 2021",
-        shortDescription: "Two machine learning projects",
+        shortDescription: "Development of an AI tool to summarize recent news for RBC.",
         imgPath: "./assets/qmindlogo.png",
         imgWidth: 120,
-        imgHeight: 120
+        imgHeight: 120,
+        link: "https://qmind.ca/"
         
     },
     {
@@ -25,20 +27,22 @@ const experiencecontent = [
         title: "Tutor",
         timeStarted: "September 2018",
         timeEnded: "April 2021",
-        shortDescription: "Tutor for math, programming and physics courses",
+        shortDescription: "Tutor for math, programming and physics courses.",
         imgPath: "./assets/Queens.png",
         imgWidth: 130,
-        imgHeight: 99
+        imgHeight: 99,
+        link: "https://www.queensu.ca/"
     },
     {
         company: "Citi",
         title: "Software Development Intern" ,
         timeStarted: "June 2020",
         timeEnded: "August 2020",
-        shortDescription: "Learned various skills",
+        shortDescription: "Comprehensive exposure to various AWS tools, Docker and CI/CD practices.",
         imgPath: "./assets/citi.png",
         imgWidth: 90,
-        imgHeight: 57
+        imgHeight: 57,
+        link: "https://www.citigroup.com/citi/"
     }
 ]
 export default experiencecontent;

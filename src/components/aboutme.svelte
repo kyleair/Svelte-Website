@@ -20,9 +20,9 @@
     </div>
     <img
       alt="headshot"
-      src="./assets/stockheadshot.jpg"
-      height="120"
-      width="180"
+      src="./assets/headshotnoback.png"
+      height="150"
+      width="150"
     />
   </div>
 </main>
@@ -35,7 +35,7 @@
     justify-items: center;
   }
   p {
-    text-align: left;
     text-indent: 4%;
+    font-size: large;
   }
 </style>

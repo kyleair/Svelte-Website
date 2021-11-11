@@ -7,9 +7,9 @@
       <a href="/"
         ><img
           alt="Home"
-          src="./assets/homeicon.png"
-          height="40px"
-          weight="40px"
+          src="./assets/kalogo.png"
+          height="70px"
+          weight="70px"
         /></a
       >
     </div>

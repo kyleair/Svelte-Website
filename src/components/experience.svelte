@@ -8,7 +8,9 @@
     {#each experiences as experience}
       <div class="experience-block">
         <div>
-          <h2>{experience.company}</h2>
+          <h2>
+            <a href={experience.link} target="_blank"> {experience.company}</a>
+          </h2>
           <h3>{experience.title}</h3>
           <h4>{experience.timeStarted} - {experience.timeEnded}</h4>
           <p>{experience.shortDescription}</p>
@@ -56,5 +58,9 @@
     justify-self: center;
     border-left: 1px solid black;
     height: 7rem;
+  }
+  p {
+    text-align: center;
+    margin: 0.5rem 1rem;
   }
 </style>
