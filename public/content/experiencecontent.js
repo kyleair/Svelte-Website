@@ -1,5 +1,6 @@
 const experiencecontent = [
     {
+        id: 0,
         company: "Citi",
         title: "Software Developer" ,
         timeStarted: "July 2021",
@@ -11,6 +12,7 @@ const experiencecontent = [
         link: "https://www.citigroup.com/citi/"
     },
     {
+        id: 1,
         company: "QMIND",
         title: "Machine Learning Engineer" ,
         timeStarted: "September 2019",
@@ -23,6 +25,7 @@ const experiencecontent = [
         
     },
     {
+        id: 2,
         company: "Queen's University",
         title: "Tutor",
         timeStarted: "September 2018",
@@ -34,6 +37,7 @@ const experiencecontent = [
         link: "https://www.queensu.ca/"
     },
     {
+        id: 3,
         company: "Citi",
         title: "Software Development Intern" ,
         timeStarted: "June 2020",

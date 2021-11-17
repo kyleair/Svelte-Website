@@ -3,7 +3,7 @@
 
 <main>
   <h1 id="education"><span id="anchor" />Education 📚</h1>
-  <div class="education-block">
+  <div class="education-block tile-hover">
     <div>
       <a href="https://www.queensu.ca/" target="_blank"
         ><h2>Queen's University</h2></a

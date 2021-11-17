@@ -21,7 +21,7 @@
 
 <style>
   a {
-    padding: 3%;
+    padding: 3% 6%;
   }
   main {
     padding-bottom: 5vh;

@@ -1,12 +1,38 @@
 <script>
   import experiences from "../../public/content/experiencecontent";
+  import experiencemodal from "./modals/experiencemodal.svelte";
+  import { getContext } from "svelte";
+
+  const { open } = getContext("simple-modal");
+
+  const showExperience = (title, company, start, end, description) => {
+    open(experiencemodal, {
+      title: title,
+      company: company,
+      start: start,
+      end: end,
+      description: description,
+    });
+  };
+
+  let showModal = "";
 </script>
 
 <main>
   <h1 id="experience"><span id="anchor" />Experience 👔</h1>
   <div class="experience-area">
     {#each experiences as experience}
-      <div class="experience-block">
+      <div
+        class="experience-block tile-hover"
+        on:click={() =>
+          showExperience(
+            experience.title,
+            experience.company,
+            experience.timeStarted,
+            experience.timeEnded,
+            experience.shortDescription
+          )}
+      >
         <div>
           <h2>
             <a href={experience.link} target="_blank"> {experience.company}</a>
@@ -48,6 +74,8 @@
     margin: 20px;
     padding: 10px;
     background-color: rgb(176, 224, 230, 0.3);
+    position: relative;
+    z-index: 1;
   }
   .img-container {
     align-self: center;

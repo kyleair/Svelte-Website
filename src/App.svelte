@@ -5,19 +5,22 @@
   import Socials from "./components/socials.svelte";
   import Navbar from "./components/navibar.svelte";
   import Projects from "./components/projects.svelte";
+  import Modal from "svelte-simple-modal";
 </script>
 
 <html lang="en">
-  <div class="container">
-    <Navbar />
-    <div class="content">
-      <About />
-      <Experience />
-      <Education />
-      <Projects />
-      <Socials />
+  <Modal>
+    <div class="container">
+      <Navbar />
+      <div class="content">
+        <About />
+        <Experience />
+        <Education />
+        <Projects />
+        <Socials />
+      </div>
     </div>
-  </div>
+  </Modal>
 </html>
 
 <style>

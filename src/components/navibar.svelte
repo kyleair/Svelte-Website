@@ -34,6 +34,7 @@
     border-width: 0px;
     border-bottom-width: 1px;
     position: fixed;
+    z-index: 999;
     left: 0;
     top: 0;
     width: 100%;

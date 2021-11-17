@@ -32,6 +32,16 @@ a:visited {
   color: rgb(0, 0, 0);
 }
 
+.tile-hover:hover {
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transform: scale(1.07);
+  transform: scale(1.07);
+  background-color: rgb(176, 224, 230, 0.9) !important;
+  border-color: blue !important;
+  z-index: 1;
+}
+
 [id="anchor"]::before {
   content: "";
   display: block;

@@ -38,4 +38,8 @@
     text-indent: 4%;
     font-size: large;
   }
+  img {
+    border: solid rgb(0, 0, 0, 0.75) 1px;
+    border-radius: 50%;
+  }
 </style>
