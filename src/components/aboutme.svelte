@@ -6,7 +6,7 @@
   <div class="grid-container">
     <div>
       <p>
-        My name is Kyle and I am a new graduate Software Developer with a
+        My name is Kyle Air and I am a new graduate Software Developer with a
         passion for technology, programming, sports and video games. I graduated
         from Queen's University in 2021 with a degree in Engineering.
       </p>

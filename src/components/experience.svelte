@@ -5,17 +5,25 @@
 
   const { open } = getContext("simple-modal");
 
-  const showExperience = (title, company, start, end, description) => {
+  const showExperience = (
+    title,
+    link,
+    company,
+    start,
+    end,
+    description,
+    location
+  ) => {
     open(experiencemodal, {
       title: title,
+      link: link,
       company: company,
       start: start,
       end: end,
       description: description,
+      location: location,
     });
   };
-
-  let showModal = "";
 </script>
 
 <main>
@@ -27,15 +35,17 @@
         on:click={() =>
           showExperience(
             experience.title,
+            experience.link,
             experience.company,
             experience.timeStarted,
             experience.timeEnded,
-            experience.shortDescription
+            experience.shortDescription,
+            experience.location
           )}
       >
         <div>
           <h2>
-            <a href={experience.link} target="_blank"> {experience.company}</a>
+            {experience.company}
           </h2>
           <h3>{experience.title}</h3>
           <h4>{experience.timeStarted} - {experience.timeEnded}</h4>

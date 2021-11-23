@@ -21,7 +21,6 @@ h2 {
   font-size: larger;
 }
 a {
-  color: black;
   text-decoration: none;
 }
 a:hover {
@@ -40,6 +39,10 @@ a:visited {
   background-color: rgb(176, 224, 230, 0.9) !important;
   border-color: blue !important;
   z-index: 1;
+}
+
+.company-link {
+  color: rgb(176, 224, 230, 0.9);
 }
 
 [id="anchor"]::before {

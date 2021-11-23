@@ -9,7 +9,8 @@ const experiencecontent = [
         imgPath: "./assets/citi.png",
         imgWidth: 90,
         imgHeight: 57,
-        link: "https://www.citigroup.com/citi/"
+        link: "https://www.citigroup.com/citi/",
+        location: "Missisauga, ON"
     },
     {
         id: 1,
@@ -21,7 +22,8 @@ const experiencecontent = [
         imgPath: "./assets/qmindlogo.png",
         imgWidth: 120,
         imgHeight: 120,
-        link: "https://qmind.ca/"
+        link: "https://qmind.ca/",
+        location: "Kingston, ON"
         
     },
     {
@@ -34,7 +36,8 @@ const experiencecontent = [
         imgPath: "./assets/Queens.png",
         imgWidth: 130,
         imgHeight: 99,
-        link: "https://www.queensu.ca/"
+        link: "https://www.queensu.ca/",
+        location: "Kingston, ON"
     },
     {
         id: 3,
@@ -46,7 +49,8 @@ const experiencecontent = [
         imgPath: "./assets/citi.png",
         imgWidth: 90,
         imgHeight: 57,
-        link: "https://www.citigroup.com/citi/"
+        link: "https://www.citigroup.com/citi/",
+        location: "Mississauga, ON"
     }
 ]
 export default experiencecontent;
