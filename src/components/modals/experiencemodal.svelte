@@ -22,7 +22,11 @@
     <h3 class="date">{start} - {end}</h3>
     <h3 class="location">{location}</h3>
   </div>
-  <p>{description}</p>
+  <ul>
+    {#each description as desc}
+      <li>{desc}</li>
+    {/each}
+  </ul>
 </main>
 
 <style>

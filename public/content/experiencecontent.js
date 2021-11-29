@@ -10,7 +10,8 @@ const experiencecontent = [
         imgWidth: 90,
         imgHeight: 57,
         link: "https://www.citigroup.com/citi/",
-        location: "Missisauga, ON"
+        location: "Missisauga, ON",
+        longDescription: ['Frontend development using React for commercial cash accounts dashboard','Backend development using Java Springboot for commercial cash accounts dashboard','Teamwork using Agile methodology']
     },
     {
         id: 1,
@@ -23,7 +24,8 @@ const experiencecontent = [
         imgWidth: 120,
         imgHeight: 120,
         link: "https://qmind.ca/",
-        location: "Kingston, ON"
+        location: "Kingston, ON",
+        longDescription: ['Identify most relevant news stories to show to casual investors','Used topic modeling algorithm on News API data to identify most discussed stories','Used python, numpmy, scikitlearn etc']
         
     },
     {
@@ -37,7 +39,8 @@ const experiencecontent = [
         imgWidth: 130,
         imgHeight: 99,
         link: "https://www.queensu.ca/",
-        location: "Kingston, ON"
+        location: "Kingston, ON",
+        longDescription: ['Tutor for mathematics, physics and programming courses','Had between 3-5 students each semester averaging 1 hour with each student a week']
     },
     {
         id: 3,
@@ -50,7 +53,8 @@ const experiencecontent = [
         imgWidth: 90,
         imgHeight: 57,
         link: "https://www.citigroup.com/citi/",
-        location: "Mississauga, ON"
+        location: "Mississauga, ON",
+        longDescription: ['i did this','and this!','and this too!']
     }
 ]
 export default experiencecontent;

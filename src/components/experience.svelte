@@ -39,7 +39,7 @@
             experience.company,
             experience.timeStarted,
             experience.timeEnded,
-            experience.shortDescription,
+            experience.longDescription,
             experience.location
           )}
       >

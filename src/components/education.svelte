@@ -1,13 +1,19 @@
 <script>
+  import educationmodal from "./modals/educationmodal.svelte";
+  import { getContext } from "svelte";
+
+  const { open } = getContext("simple-modal");
+
+  const showEducation = () => {
+    open(educationmodal, {});
+  };
 </script>
 
 <main>
   <h1 id="education"><span id="anchor" />Education 📚</h1>
-  <div class="education-block tile-hover">
+  <div class="education-block tile-hover" on:click={() => showEducation()}>
     <div>
-      <a href="https://www.queensu.ca/" target="_blank"
-        ><h2>Queen's University</h2></a
-      >
+      <h2>Queen's University</h2>
       <h3>Applied Mathematics and Computer Engineering</h3>
       <h4>Class of 2021</h4>
     </div>
