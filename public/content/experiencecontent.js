@@ -11,7 +11,7 @@ const experiencecontent = [
         imgHeight: 57,
         link: "https://www.citigroup.com/citi/",
         location: "Missisauga, ON",
-        longDescription: ['Frontend development using React for commercial cash accounts dashboard','Backend development using Java Springboot for commercial cash accounts dashboard','Teamwork using Agile methodology']
+        longDescription: ['Frontend development using React for commercial cash accounts dashboard','Backend development using Java Springboot for commercial cash accounts dashboard','Experience with Agile methodology, kanban board task management and daily standups']
     },
     {
         id: 1,
@@ -19,13 +19,13 @@ const experiencecontent = [
         title: "Machine Learning Engineer" ,
         timeStarted: "September 2019",
         timeEnded: "April 2021",
-        shortDescription: "Development of an AI tool to summarize recent news for RBC.",
+        shortDescription: "Developed an AI tool to summarize current news for RBC.",
         imgPath: "./assets/qmindlogo.png",
         imgWidth: 120,
         imgHeight: 120,
         link: "https://qmind.ca/",
         location: "Kingston, ON",
-        longDescription: ['Identify most relevant news stories to show to casual investors','Used topic modeling algorithm on News API data to identify most discussed stories','Used python, numpmy, scikitlearn etc']
+        longDescription: ['Identified most relevant news stories to show to casual investors using machine learning','Specifically used NLP libraries on News API data to create topic models for classification','Developed in Python, used Gensim, nltk, pandas and various other libraries']
         
     },
     {
@@ -54,7 +54,7 @@ const experiencecontent = [
         imgHeight: 57,
         link: "https://www.citigroup.com/citi/",
         location: "Mississauga, ON",
-        longDescription: ['i did this','and this!','and this too!']
+        longDescription: ['Received extensive training in CI/CD bleh','Developed portfolio thingy','Exposure to big company practices']
     }
 ]
 export default experiencecontent;

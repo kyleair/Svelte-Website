@@ -1,13 +1,22 @@
 <script>
   import projects from "../../public/content/projectcontent";
   import SocialIcons from "@rodneylab/svelte-social-icons";
+  import projectmodal from "./modals/projectmodal.svelte";
+
+  import { getContext } from "svelte";
+
+  const { open } = getContext("simple-modal");
+
+  const showProject = () => {
+    open(projectmodal, {});
+  };
 </script>
 
 <main>
   <h1 id="projects"><span id="anchor" />Projects 💻</h1>
   <div class="projects-area">
     {#each projects as project}
-      <div class="project-block tile-hover">
+      <div class="project-block tile-hover" on:click={() => showProject()}>
         <div class="text-container">
           <h2>
             {project.name}
@@ -23,7 +32,9 @@
             /></a
           >
         </div>
-        <div class="img-container" />
+        <div class="img-container">
+          <img alt="picting" src={project.img} width="95%" height="95%" />
+        </div>
       </div>
     {/each}
   </div>
@@ -39,7 +50,7 @@
   }
   .project-block {
     display: grid;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: auto auto;
     row-gap: 1.5vh;
     border-color: black;
     border-style: solid;
@@ -54,6 +65,10 @@
   }
   .img-container {
     border-top: dashed black 1px;
+    background-image: url("./assets/betappthreescreens.png");
+  }
+  img {
+    object-fit: scale-down;
   }
   p {
     text-align: center;
