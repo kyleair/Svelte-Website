@@ -7,12 +7,13 @@
       <a href="/"
         ><img
           alt="Home"
-          src="./assets/kalogo.png"
-          height="70px"
-          weight="70px"
+          src="./assets/homebutton.png"
+          height="40px"
+          weight="40px"
         /></a
       >
     </div>
+    <div class="namewrapper"><h1>Kyle Air</h1></div>
     <div class="sectionwrapper">
       <a href="#about"><h2>About Me</h2></a>
       <h3>&#183;</h3>
@@ -39,11 +40,7 @@
     top: 0;
     width: 100%;
     height: 8vh;
-    background-image: linear-gradient(
-      to right,
-      rgb(101, 198, 255),
-      rgb(216, 232, 241) 45%
-    );
+    background-image: linear-gradient(to right, #ffecb5, #ffe59c);
     justify-content: center;
   }
   a {
@@ -58,12 +55,23 @@
     display: flex;
     justify-content: left;
   }
+  .namewrapper {
+    display: flex;
+    justify-content: center;
+    border: solid black;
+    border-width: 0px 1px;
+  }
   .grid-container {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 3fr 6fr;
     align-items: center;
     margin-left: 20%;
     margin-right: 20%;
+  }
+  h1 {
+    border: none;
+    padding: 0;
+    margin: auto;
   }
   @media screen and (min-height: 1100px) {
     .bar {

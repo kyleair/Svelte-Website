@@ -14,20 +14,29 @@
     description,
     location
   ) => {
-    open(experiencemodal, {
-      title: title,
-      link: link,
-      company: company,
-      start: start,
-      end: end,
-      description: description,
-      location: location,
-    });
+    open(
+      experiencemodal,
+      {
+        title: title,
+        link: link,
+        company: company,
+        start: start,
+        end: end,
+        description: description,
+        location: location,
+      },
+      {
+        styleWindow: { backgroundColor: "#d4fffc" },
+      }
+    );
   };
 </script>
 
 <main>
-  <h1 id="experience"><span id="anchor" />Experience 👔</h1>
+  <h1 id="experience">
+    <span id="anchor" />Experience
+    <img alt="" src="./assets/experienceicon.png" height="50px" weight="50px" />
+  </h1>
   <div class="experience-area">
     {#each experiences as experience}
       <div
@@ -83,7 +92,7 @@
     border-radius: 50px;
     margin: 20px;
     padding: 10px;
-    background-color: rgb(176, 224, 230, 0.3);
+    background-color: #ffecb5;
     position: relative;
     z-index: 1;
   }

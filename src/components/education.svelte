@@ -5,12 +5,21 @@
   const { open } = getContext("simple-modal");
 
   const showEducation = () => {
-    open(educationmodal, {});
+    open(
+      educationmodal,
+      {},
+      {
+        styleWindow: { backgroundColor: "#d4fffc" },
+      }
+    );
   };
 </script>
 
 <main>
-  <h1 id="education"><span id="anchor" />Education 📚</h1>
+  <h1 id="education">
+    <span id="anchor" />Education
+    <img alt="" src="./assets/educationicon.png" height="50px" weight="50px" />
+  </h1>
   <div class="education-block tile-hover" on:click={() => showEducation()}>
     <div>
       <h2>Queen's University</h2>
@@ -33,7 +42,7 @@
     border-style: solid;
     border-width: 1px;
     border-radius: 50px;
-    background-color: rgb(176, 224, 230, 0.3);
+    background-color: #ffecb5;
     margin: auto;
     padding: 10px;
     width: 38vw;

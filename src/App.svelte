@@ -30,7 +30,4 @@
     margin-right: 20%;
     padding-top: 4%;
   }
-  html {
-    background-color: #f9f4f4;
-  }
 </style>

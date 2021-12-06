@@ -3,11 +3,15 @@
 </script>
 
 <main>
-  <h1 id="socials"><span id="anchor" />Socials ☎️</h1>
+  <h1 id="socials">
+    <span id="anchor" />Socials
+    <img alt="" src="./assets/socialicon.png" height="50px" weight="50px" />
+  </h1>
 
-  <a href="https://github.com/kyleair/Svelte-Website" target="_blank"
-    ><SocialIcons alt="" network="github" fgColor="#ffffff" /></a
-  >
+  <h2>
+    If you'd like to get in touch you can reach out over LinkedIn, Email or
+    Twitter!
+  </h2>
   <a href="https://www.linkedin.com/in/kyle-air-813853164/" target="_blank"
     ><SocialIcons alt="" network="linkedin" fgColor="#ffffff" /></a
   >
@@ -16,6 +20,9 @@
   >
   <a href="https://twitter.com/riaelyk" target="_blank"
     ><SocialIcons alt="" network="twitter" fgColor="#ffffff" /></a
+  >
+  <a href="https://github.com/kyleair/Svelte-Website" target="_blank"
+    ><SocialIcons alt="" network="github" fgColor="#ffffff" /></a
   >
 </main>
 

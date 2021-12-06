@@ -54,7 +54,7 @@ const experiencecontent = [
         imgHeight: 57,
         link: "https://www.citigroup.com/citi/",
         location: "Mississauga, ON",
-        longDescription: ['Received extensive training in CI/CD bleh','Developed portfolio thingy','Exposure to big company practices']
+        longDescription: ['Received extensive training for CI/CD tools','Developed portfolio thingy','Exposure to big company practices']
     }
 ]
 export default experiencecontent;

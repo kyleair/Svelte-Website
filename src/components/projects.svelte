@@ -8,12 +8,21 @@
   const { open } = getContext("simple-modal");
 
   const showProject = () => {
-    open(projectmodal, {});
+    open(
+      projectmodal,
+      {},
+      {
+        styleWindow: { backgroundColor: "#d4fffc" },
+      }
+    );
   };
 </script>
 
 <main>
-  <h1 id="projects"><span id="anchor" />Projects 💻</h1>
+  <h1 id="projects">
+    <span id="anchor" />Projects
+    <img alt="" src="./assets/projectsicon.png" height="50px" weight="50px" />
+  </h1>
   <div class="projects-area">
     {#each projects as project}
       <div class="project-block tile-hover" on:click={() => showProject()}>
@@ -58,7 +67,7 @@
     border-radius: 50px;
     margin: 20px;
     padding: 10px;
-    background-color: rgb(176, 224, 230, 0.3);
+    background-color: #ffecb5;
   }
   .text-container {
     margin: auto;

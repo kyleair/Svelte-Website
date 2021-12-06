@@ -2,13 +2,16 @@
 </script>
 
 <main>
-  <h1 id="about"><span id="anchor" />About Me ✌️</h1>
+  <h1 id="about">
+    <span id="anchor" />About Me
+    <img alt="" src="./assets/aboutmeicon.png" height="50px" weight="50px" />
+  </h1>
   <div class="grid-container">
     <div>
       <p>
-        My name is Kyle Air and I am a new graduate Software Developer with a
-        passion for technology, programming, sports and video games. I graduated
-        from Queen's University in 2021 with a degree in Engineering.
+        Hello! My name is Kyle Air and I am a new graduate Software Developer
+        with a passion for technology, programming, sports and video games. I
+        graduated from Queen's University in 2021 with a degree in Engineering.
       </p>
       <p>
         I made this website to talk about myself, showcase projects I have made
@@ -19,6 +22,7 @@
       </p>
     </div>
     <img
+      class="headshot"
       alt="headshot"
       src="./assets/headshotnoback.png"
       height="150"
@@ -38,7 +42,7 @@
     text-indent: 4%;
     font-size: large;
   }
-  img {
+  img.headshot {
     border: solid rgb(0, 0, 0, 0.75) 1px;
     border-radius: 50%;
   }
