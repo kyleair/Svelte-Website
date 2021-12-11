@@ -7,12 +7,21 @@
 
   const { open } = getContext("simple-modal");
 
-  const showProject = () => {
+  const showProject = (title, description, imgPath, github) => {
     open(
       projectmodal,
-      {},
       {
-        styleWindow: { backgroundColor: "#d4fffc" },
+        title: title,
+        description: description,
+        imgPath: imgPath,
+        github: github,
+      },
+      {
+        styleWindow: {
+          backgroundColor: "#d4fffc",
+          height: "80vh",
+          width: "80vw",
+        },
       }
     );
   };
@@ -25,21 +34,21 @@
   </h1>
   <div class="projects-area">
     {#each projects as project}
-      <div class="project-block tile-hover" on:click={() => showProject()}>
+      <div
+        class="project-block tile-hover"
+        on:click={() =>
+          showProject(
+            project.name,
+            project.longDescription,
+            project.img,
+            project.github
+          )}
+      >
         <div class="text-container">
           <h2>
             {project.name}
           </h2>
           <p>{project.shortDescription}</p>
-          <a href="https://github.com/kyleair/Svelte-Website" target="_blank"
-            ><SocialIcons
-              alt=""
-              network="github"
-              fgColor="#ffffff"
-              width="30"
-              height="30"
-            /></a
-          >
         </div>
         <div class="img-container">
           <img alt="picting" src={project.img} width="95%" height="95%" />
@@ -74,7 +83,6 @@
   }
   .img-container {
     border-top: dashed black 1px;
-    background-image: url("./assets/betappthreescreens.png");
   }
   img {
     object-fit: scale-down;

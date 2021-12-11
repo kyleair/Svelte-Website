@@ -39,7 +39,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 8vh;
+    height: 4.5em;
     background-image: linear-gradient(to right, #ffecb5, #ffe59c);
     justify-content: center;
   }
@@ -73,12 +73,6 @@
     padding: 0;
     margin: auto;
   }
-  @media screen and (min-height: 1100px) {
-    .bar {
-      height: 6vh;
-    }
-  }
-
   @media screen and (max-height: 600px) {
     .bar {
       visibility: hidden;

@@ -10,8 +10,9 @@
     <div>
       <p>
         Hello! My name is Kyle Air and I am a new graduate Software Developer
-        with a passion for technology, programming, sports and video games. I
-        graduated from Queen's University in 2021 with a degree in Engineering.
+        with a passion for technology, programming, hiking, sports and video
+        games. I graduated from Queen's University in 2021 with a degree in
+        Engineering.
       </p>
       <p>
         I made this website to talk about myself, showcase projects I have made
@@ -21,13 +22,16 @@
         Thanks for stopping by!
       </p>
     </div>
-    <img
-      class="headshot"
-      alt="headshot"
-      src="./assets/headshotnoback.png"
-      height="150"
-      width="150"
-    />
+
+    <a href="./assets/natureheadshot1square.JPG" target="_blank"
+      ><img
+        class="headshot"
+        alt="headshot"
+        src="./assets/natureheadshot1square.JPG"
+        height="200"
+        width="200"
+      /></a
+    >
   </div>
 </main>
 
@@ -45,5 +49,11 @@
   img.headshot {
     border: solid rgb(0, 0, 0, 0.75) 1px;
     border-radius: 50%;
+  }
+  .headshot:hover {
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
   }
 </style>
