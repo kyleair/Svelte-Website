@@ -34,13 +34,13 @@ const experiencecontent = [
         title: "Tutor",
         timeStarted: "September 2018",
         timeEnded: "April 2021",
-        shortDescription: "Tutor for math, programming and physics courses.",
+        shortDescription: "Tutored various math, programming and physics courses.",
         imgPath: "./assets/Queens.png",
         imgWidth: 130,
         imgHeight: 99,
         link: "https://www.queensu.ca/",
         location: "Kingston, ON",
-        longDescription: ['Tutor for mathematics, physics and programming courses','Had between 3-5 students each semester averaging 1 hour with each student a week']
+        longDescription: ['Tutored a range of mathematics, physics and programming courses','Had between 3-5 students each semester averaging 1 hour with each student a week']
     },
     {
         id: 3,
@@ -48,13 +48,13 @@ const experiencecontent = [
         title: "Software Development Intern" ,
         timeStarted: "June 2020",
         timeEnded: "August 2020",
-        shortDescription: "Comprehensive exposure to various AWS tools, Docker and CI/CD practices.",
+        shortDescription: "Received exposure to various AWS tools, Docker and CI/CD practices.",
         imgPath: "./assets/citi.png",
         imgWidth: 90,
         imgHeight: 57,
         link: "https://www.citigroup.com/citi/",
         location: "Mississauga, ON",
-        longDescription: ['Received extensive training for CI/CD tools','Developed portfolio thingy','Exposure to big company practices']
+        longDescription: ['Developed proof of concept portfolio management app using MEAN stack (MongoDB, Express, Angular, Node)', 'Received extensive training with CI/CD tools Jenkins and TeamCity', 'Gained experience using a wide range of common AWS tools']
     }
 ]
 export default experiencecontent;

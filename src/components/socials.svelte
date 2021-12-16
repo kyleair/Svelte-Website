@@ -24,6 +24,7 @@
   <a href="https://github.com/kyleair/Svelte-Website" target="_blank"
     ><SocialIcons alt="" network="github" fgColor="#ffffff" /></a
   >
+  <p>kyleair8@gmail.com</p>
 </main>
 
 <style>
@@ -32,5 +33,9 @@
   }
   main {
     padding-bottom: 5vh;
+  }
+  p {
+    padding-top: 0%;
+    text-align: center;
   }
 </style>
