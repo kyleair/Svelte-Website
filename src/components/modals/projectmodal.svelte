@@ -1,5 +1,6 @@
 <script>
-  import SocialIcons from "@rodneylab/svelte-social-icons";
+  import Icon from "svelte-awesome";
+  import { code } from "svelte-awesome/icons";
 
   export let title;
   export let description;
@@ -9,15 +10,7 @@
 
 <main>
   <h1>{title}</h1>
-  <a href={github} target="_blank"
-    ><SocialIcons
-      alt=""
-      network="github"
-      fgColor="#ffffff"
-      width="30"
-      height="30"
-    /></a
-  >
+  <a href={github} target="_blank"><Icon data={code} scale="2" /></a>
   <p>{description}</p>
   <a href={imgPath} target="_blank"
     ><img

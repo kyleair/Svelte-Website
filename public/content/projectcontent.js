@@ -1,6 +1,6 @@
 const projectcontent = [
     {
-        name: "kyleair.com",
+        name: "This Website",
         link: "https://github.com/kyleair/Svelte-Website",
         shortDescription: "This website was built using Svelte.",
         longDescription: "I built this website using Svelte. The point of buidling this website was to showcase my frontend web development ability, while expanding my own skillset by learning a new framework in svelte."+
