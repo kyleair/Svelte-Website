@@ -30,4 +30,10 @@
     margin-right: 20%;
     padding-top: 4%;
   }
+  @media screen and (max-width: 1200px) {
+    .content {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  }
 </style>
