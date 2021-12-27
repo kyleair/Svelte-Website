@@ -15,7 +15,7 @@
     </div>
     <div class="namewrapper"><h1>Kyle Air</h1></div>
     <div class="sectionwrapper">
-      <a href="#about"><h2>About Me</h2></a>
+      <a href="#about"><h2>About</h2></a>
       <h3>&#183;</h3>
       <a href="#experience"><h2>Experience</h2></a>
       <h3>&#183;</h3>
@@ -63,7 +63,7 @@
   }
   .grid-container {
     display: grid;
-    grid-template-columns: 1fr 3fr 6fr;
+    grid-template-columns: 1fr 3fr 8fr;
     align-items: center;
     margin-left: 20%;
     margin-right: 20%;
@@ -73,7 +73,10 @@
     padding: 0;
     margin: auto;
   }
-  @media screen and (max-height: 600px) {
+  h2 {
+    color: black;
+  }
+  @media screen and (max-width: 600px) {
     .bar {
       visibility: hidden;
     }
