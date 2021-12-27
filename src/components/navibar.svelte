@@ -76,6 +76,10 @@
   h2 {
     color: black;
   }
+  h2:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0, 0.4);
+  }
   @media screen and (max-width: 600px) {
     .bar {
       visibility: hidden;

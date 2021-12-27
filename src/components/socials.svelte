@@ -18,17 +18,21 @@
     If you'd like to get in touch you can reach out over LinkedIn, Email
     (kyleair8@gmail.com) or Twitter!
   </h2>
-  <a href="https://www.linkedin.com/in/kyle-air-813853164/" target="_blank"
-    ><Icon data={linkedinSquare} scale="4" /></a
+  <a
+    href="https://www.linkedin.com/in/kyle-air-813853164/"
+    target="_blank"
+    class="iconThingy"><Icon data={linkedinSquare} scale="4" /></a
   >
   <a href="mailto:kyleair8@gmail.com" target="_blank" class="iconThingy"
     ><Icon data={envelope} scale="4" /></a
   >
-  <a href="https://twitter.com/riaelyk" target="_blank"
+  <a href="https://twitter.com/riaelyk" target="_blank" class="iconThingy"
     ><Icon data={twitter} scale="4" /></a
   >
-  <a href="https://github.com/kyleair/Svelte-Website" target="_blank"
-    ><Icon data={github} scale="4" /></a
+  <a
+    href="https://github.com/kyleair/Svelte-Website"
+    target="_blank"
+    class="iconThingy"><Icon data={github} scale="4" /></a
   >
 </main>
 
