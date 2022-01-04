@@ -91,7 +91,7 @@
     text-align: center;
     margin: 0.7rem 1rem;
   }
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1000px) {
     .projects-area {
       grid-template-columns: 1fr;
     }

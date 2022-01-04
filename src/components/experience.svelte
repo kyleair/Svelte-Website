@@ -110,9 +110,18 @@
     text-align: center;
     margin: 0.5rem 1rem;
   }
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1000px) {
     .experience-area {
       grid-template-columns: 1fr;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .experience-block {
+      grid-template-columns: 1fr 0fr 0fr;
+    }
+    .seperator,
+    .img-container {
+      display: none;
     }
   }
 </style>

@@ -57,7 +57,7 @@
     -webkit-transform: scale(1.08);
     transform: scale(1.08);
   }
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1000px) {
     .grid-container {
       display: flex;
       align-items: center;

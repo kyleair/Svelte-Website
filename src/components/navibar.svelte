@@ -82,7 +82,7 @@
       margin-right: 10%;
     }
   }
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1000px) {
     .bar {
       visibility: hidden;
     }

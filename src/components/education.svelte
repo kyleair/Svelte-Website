@@ -58,9 +58,18 @@
     justify-self: center;
     margin-right: 3rem;
   }
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1000px) {
     .education-block {
       width: 80vw;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .education-block {
+      grid-template-columns: 1fr 0fr 0fr;
+    }
+    .seperator,
+    .img-container {
+      display: none;
     }
   }
 </style>
