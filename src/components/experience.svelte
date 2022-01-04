@@ -90,8 +90,8 @@
     border-style: solid;
     border-width: 1px;
     border-radius: 50px;
-    margin: 20px;
-    padding: 10px;
+    margin: 4%;
+    padding: 3%;
     background-color: #ffecb5;
     position: relative;
     z-index: 1;
