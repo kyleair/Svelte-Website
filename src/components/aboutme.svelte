@@ -58,14 +58,14 @@
     transform: scale(1.08);
   }
   @media screen and (max-width: 1300px) {
-    .imgcontainer {
-      visibility: hidden;
-    }
     .grid-container {
       display: grid;
-      grid-template-columns: 100fr 1fr;
+      grid-template-columns: 1fr 0fr;
       align-items: center;
       justify-items: center;
+    }
+    .imgcontainer {
+      visibility: hidden;
     }
   }
 </style>
