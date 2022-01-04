@@ -63,7 +63,7 @@
     }
     .grid-container {
       display: grid;
-      grid-template-columns: 1fr 0fr;
+      grid-template-columns: 100fr 1fr;
       align-items: center;
       justify-items: center;
     }
