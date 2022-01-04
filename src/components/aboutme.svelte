@@ -61,5 +61,11 @@
     .imgcontainer {
       visibility: hidden;
     }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 0fr;
+      align-items: center;
+      justify-items: center;
+    }
   }
 </style>
