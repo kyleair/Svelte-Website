@@ -59,8 +59,7 @@
   }
   @media screen and (max-width: 1300px) {
     .grid-container {
-      display: grid;
-      grid-template-columns: 1fr 0fr;
+      display: flex;
       align-items: center;
       justify-items: center;
     }
