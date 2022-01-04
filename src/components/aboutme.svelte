@@ -64,7 +64,7 @@
       justify-items: center;
     }
     .imgcontainer {
-      visibility: hidden;
+      display: none;
     }
   }
 </style>
