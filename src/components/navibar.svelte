@@ -76,11 +76,13 @@
   h2 {
     color: black;
   }
-  h2:hover {
-    text-decoration: underline;
-    color: rgb(0, 0, 0, 0.4);
+  @media screen and (max-width: 1800px) {
+    .grid-container {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1300px) {
     .bar {
       visibility: hidden;
     }

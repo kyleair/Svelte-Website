@@ -110,4 +110,9 @@
     text-align: center;
     margin: 0.5rem 1rem;
   }
+  @media screen and (max-width: 1300px) {
+    .experience-area {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>

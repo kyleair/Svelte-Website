@@ -58,4 +58,9 @@
     justify-self: center;
     margin-right: 3rem;
   }
+  @media screen and (max-width: 1300px) {
+    .education-block {
+      width: 80vw;
+    }
+  }
 </style>

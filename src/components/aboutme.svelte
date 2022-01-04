@@ -22,16 +22,17 @@
         Thanks for stopping by!
       </p>
     </div>
-
-    <a href="./assets/natureheadshot1square.JPG" target="_blank"
-      ><img
-        class="headshot"
-        alt="headshot"
-        src="./assets/natureheadshot1square.JPG"
-        height="200"
-        width="200"
-      /></a
-    >
+    <div class="imgcontainer">
+      <a href="./assets/natureheadshot1square.JPG" target="_blank"
+        ><img
+          class="headshot"
+          alt="headshot"
+          src="./assets/natureheadshot1square.JPG"
+          height="200"
+          width="200"
+        /></a
+      >
+    </div>
   </div>
 </main>
 
@@ -55,5 +56,10 @@
     transition-duration: 0.3s;
     -webkit-transform: scale(1.08);
     transform: scale(1.08);
+  }
+  @media screen and (max-width: 1300px) {
+    .imgcontainer {
+      visibility: hidden;
+    }
   }
 </style>
