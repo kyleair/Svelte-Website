@@ -63,8 +63,5 @@
       align-items: center;
       justify-items: center;
     }
-    .imgcontainer {
-      display: none;
-    }
   }
 </style>
