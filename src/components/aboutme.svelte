@@ -59,9 +59,7 @@
   }
   @media screen and (max-width: 1000px) {
     .grid-container {
-      display: flex;
-      align-items: center;
-      justify-items: center;
+      grid-template-columns: 1fr;
     }
   }
 </style>
