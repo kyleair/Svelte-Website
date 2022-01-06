@@ -24,6 +24,8 @@
       <a href="#projects"><h2>Projects</h2></a>
       <h3>&#183;</h3>
       <a href="#socials"><h2>Socials</h2></a>
+      <h3>&#183;</h3>
+      <a href="./content/KyleAirResume.pdf" target="_blank"><h2>Resume</h2></a>
     </div>
   </div>
 </div>
@@ -82,9 +84,17 @@
       margin-right: 10%;
     }
   }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1200px) {
+    .grid-container {
+      grid-template-columns: 1fr 8fr;
+    }
+    .namewrapper {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 890px) {
     .bar {
-      visibility: hidden;
+      display: none;
     }
   }
 </style>
