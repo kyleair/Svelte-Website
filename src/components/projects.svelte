@@ -19,8 +19,6 @@
       {
         styleWindow: {
           backgroundColor: "#d4fffc",
-          height: "80vh",
-          width: "80vw",
         },
       }
     );
