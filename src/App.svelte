@@ -8,8 +8,8 @@
   import Modal from "svelte-simple-modal";
 </script>
 
-<html lang="en">
-  <Modal>
+<Modal>
+  <html lang="en">
     <div class="container">
       <Navbar />
       <div class="content">
@@ -20,8 +20,8 @@
         <Socials />
       </div>
     </div>
-  </Modal>
-</html>
+  </html>
+</Modal>
 
 <style>
   .content {
