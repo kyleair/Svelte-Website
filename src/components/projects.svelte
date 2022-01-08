@@ -28,7 +28,7 @@
 <main>
   <h1 id="projects">
     <span id="anchor" />Projects
-    <img alt="" src="./assets/projectsicon.png" height="50px" weight="50px" />
+    <img alt="" src="./assets/projectsicon.png" height="48px" weight="48px" />
   </h1>
   <div class="projects-area">
     {#each projects as project}

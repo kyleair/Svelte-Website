@@ -11,12 +11,14 @@
 <main>
   <h1 id="socials">
     <span id="anchor" />Socials
-    <img alt="" src="./assets/socialicon.png" height="50px" weight="50px" />
+    <img alt="" src="./assets/socialicon.png" height="48px" weight="48px" />
   </h1>
   <h2>
-    Click <a href="./content/KyleAirResume.pdf" target="_blank" class="resume"
-      >here</a
-    > to view my resume. Feel free to download and contact me if you have any questions!
+    Check out my <a
+      href="./content/KyleAirResume.pdf"
+      target="_blank"
+      class="resume">resume</a
+    >. Feel free to download it and contact me if you have any questions!
   </h2>
   <h2>
     If you'd like to get in touch you can reach out over LinkedIn, Email
@@ -25,17 +27,22 @@
   <a
     href="https://www.linkedin.com/in/kyle-air-813853164/"
     target="_blank"
+    rel="noopener noreferrer"
     class="iconThingy"><Icon data={linkedinSquare} scale="4" /></a
   >
   <a href="mailto:kyleair8@gmail.com" target="_blank" class="iconThingy"
     ><Icon data={envelope} scale="4" /></a
   >
-  <a href="https://twitter.com/riaelyk" target="_blank" class="iconThingy"
-    ><Icon data={twitter} scale="4" /></a
+  <a
+    href="https://twitter.com/riaelyk"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="iconThingy"><Icon data={twitter} scale="4" /></a
   >
   <a
     href="https://github.com/kyleair/Svelte-Website"
     target="_blank"
+    rel="noopener noreferrer"
     class="iconThingy"><Icon data={github} scale="4" /></a
   >
 </main>

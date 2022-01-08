@@ -18,7 +18,7 @@
 <main>
   <h1 id="education">
     <span id="anchor" />Education
-    <img alt="" src="./assets/educationicon.png" height="50px" weight="50px" />
+    <img alt="" src="./assets/educationicon.png" height="48px" weight="48px" />
   </h1>
   <div class="education-block tile-hover" on:click={() => showEducation()}>
     <div>

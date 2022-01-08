@@ -35,7 +35,7 @@
 <main>
   <h1 id="experience">
     <span id="anchor" />Experience
-    <img alt="" src="./assets/experienceicon.png" height="50px" weight="50px" />
+    <img alt="" src="./assets/experienceicon.png" height="48px" weight="48px" />
   </h1>
   <div class="experience-area">
     {#each experiences as experience}

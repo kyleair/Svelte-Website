@@ -4,7 +4,7 @@
 <main>
   <h1 id="about">
     <span id="anchor" />About Me
-    <img alt="" src="./assets/aboutmeicon.png" height="50px" weight="50px" />
+    <img alt="" src="./assets/aboutmeicon.png" height="48px" weight="48px" />
   </h1>
   <div class="grid-container">
     <div>
