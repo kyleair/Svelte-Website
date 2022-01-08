@@ -28,22 +28,23 @@
     href="https://www.linkedin.com/in/kyle-air-813853164/"
     target="_blank"
     rel="noopener noreferrer"
-    class="iconThingy"><Icon data={linkedinSquare} scale="4" /></a
+    class="iconThingy"
+    ><Icon data={linkedinSquare} scale="4" label="linkedin" /></a
   >
   <a href="mailto:kyleair8@gmail.com" target="_blank" class="iconThingy"
-    ><Icon data={envelope} scale="4" /></a
+    ><Icon data={envelope} scale="4" label="email" /></a
   >
   <a
     href="https://twitter.com/riaelyk"
     target="_blank"
     rel="noopener noreferrer"
-    class="iconThingy"><Icon data={twitter} scale="4" /></a
+    class="iconThingy"><Icon data={twitter} scale="4" label="tiwtter" /></a
   >
   <a
     href="https://github.com/kyleair/Svelte-Website"
     target="_blank"
     rel="noopener noreferrer"
-    class="iconThingy"><Icon data={github} scale="4" /></a
+    class="iconThingy"><Icon data={github} scale="4" label="github" /></a
   >
 </main>
 
