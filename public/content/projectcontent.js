@@ -4,9 +4,9 @@ const projectcontent = [
         link: "https://github.com/kyleair/Svelte-Website",
         shortDescription: "This website was built using Svelte.",
         longDescription: "I built this website using Svelte. The point of buidling this website was to showcase my frontend web development ability, while expanding my own skillset by learning a new framework in svelte."+
-        " Now I have full control over my own location on the internet where I can display anything I build, update my experiences and talk about myself. I will continue to treat this website "+
+        " Lighthouse classifies this website as a Progressive Web App, scoring 100 in all categories.  Now I have full control over my own location on the internet where I can display anything I build, update my experiences and talk about myself. I will continue to treat this website "+
         "as an ongoing project keeping it up to date and improving it as I learn new technologies. I am excited to add features in the future which I do not know exist today!",
-        img: "./assets/websitescreenshot.PNG",
+        img: "./assets/lighthousescore.PNG",
         github: "https://github.com/kyleair/Svelte-Website"
     },
     {
