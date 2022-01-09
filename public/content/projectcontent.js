@@ -14,10 +14,10 @@ const projectcontent = [
         link: "https://github.com/kyleair/React-Native-App",
         shortDescription: "Mobile app built with react native, using an NFL odds API to calculate both average and best betting odds for every NFL game each week.",
         longDescription: "I built this mobile app as a side project to teach myself about mobile development while creating a useful tool for my interest in sports. I built the app using React Native and Expo. "+
-        "I am an avid sports fan and occasianally will bet small amounts on NFL games. For a casual sports bettor such as myself, I only have an account with one website. The concern with this "+
+        "I am an avid sports fan and occasionally will bet small amounts on NFL games. For a casual sports bettor such as myself, I only have an account with one website. The concern with this "+
         "is that I am never able to determine whether the odds I am getting are good or bad compared to competitor betting sites. This mobile app uses a Betting Odds API to compare the odds for every NFL game each week "+
         "across 19 different websites, calculating the average odds and display the best odds available. This allows casual bettors to quickly see whether the odds on their platform are "+
-        "fair odds or unfavourable.",
+        "fair.",
         img: "./assets/betappthreescreens.png",
         github: "https://github.com/kyleair/React-Native-App"
     }

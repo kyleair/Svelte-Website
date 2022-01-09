@@ -25,7 +25,7 @@ const experiencecontent = [
         imgHeight: 120,
         link: "https://qmind.ca/",
         location: "Kingston, ON",
-        longDescription: ['Identified most relevant news stories to show to casual investors using machine learning','Specifically used NLP libraries on News API data to create topic models for classification','Developed in Python, used Gensim, nltk, pandas and various other libraries']
+        longDescription: ['Identified most relevant news stories for casual investors using machine learning','Specifically used NLP libraries on News API data to create topic models for classification','Developed in Python, used Gensim, nltk, pandas and various other libraries']
         
     },
     {

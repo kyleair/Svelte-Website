@@ -6,10 +6,13 @@
       >Queen's University</a
     >
   </h1>
-  <h2>Applied Mathematics and Computer Engineering,</h2>
-  <h2>Dean's Scholar</h2>
+  <h2>
+    Bachelor of Applied Science and Engineering, Applied Mathematics and
+    Computing
+  </h2>
+  <h3>Dean's Scholar</h3>
   <h3>Class of 2021</h3>
-  <h4>Courses</h4>
+  <h4>Relevant Courses</h4>
   <ul>
     <li>Data Structures and Algorithms</li>
     <li>Database Management Systems (MySQL)</li>

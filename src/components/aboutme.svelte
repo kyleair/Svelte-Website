@@ -17,7 +17,7 @@
       <p>
         I made this website to talk about myself, showcase projects I have made
         and further my own web development skills. Feel free to contact me via
-        my social links at the bottom of this page, I am eager to hear any
+        my social links at the bottom of this page. I am eager to hear any
         feedback or critique on this website and I am always open to chat.
         Thanks for stopping by!
       </p>

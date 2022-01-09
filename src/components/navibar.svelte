@@ -25,7 +25,8 @@
       <h3>&#183;</h3>
       <a href="#socials"><h2>Socials</h2></a>
       <h3>&#183;</h3>
-      <a href="./content/KyleAirResume.pdf" target="_blank"><h2>Resume</h2></a>
+      <a href="./content/Kyle_Air_Resume.pdf" target="_blank"><h2>Resume</h2></a
+      >
     </div>
   </div>
 </div>

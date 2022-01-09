@@ -15,7 +15,7 @@
   </h1>
   <h2>
     Check out my <a
-      href="./content/KyleAirResume.pdf"
+      href="./content/Kyle_Air_Resume.pdf"
       target="_blank"
       class="resume">resume</a
     >. Feel free to download it and contact me if you have any questions!
