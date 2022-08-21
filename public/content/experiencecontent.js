@@ -1,10 +1,24 @@
 const experiencecontent = [
     {
         id: 0,
+        company: "Faire",
+        title: "Software Engineer" ,
+        timeStarted: "August 2022",
+        timeEnded: "Present",
+        shortDescription: "Frontend Software Engineer on the brand team.",
+        imgPath: "./assets/Faire-logo.png",
+        imgWidth: 90,
+        imgHeight: 90,
+        link: "https://www.faire.com/en-ca/about",
+        location: "Toronto, ON",
+        longDescription: ['Frontend Engineer using React typescript']
+    },
+    {
+        id: 1,
         company: "Citi",
         title: "Software Developer" ,
         timeStarted: "July 2021",
-        timeEnded: "Present",
+        timeEnded: "July 2022",
         shortDescription: "Both frontend and backend development of commercial client banking portal.",
         imgPath: "./assets/citi.png",
         imgWidth: 90,
@@ -14,7 +28,7 @@ const experiencecontent = [
         longDescription: ['Frontend development using React for commercial cash accounts dashboard','Backend development using Java Springboot for commercial cash accounts dashboard','Experience with Agile methodology, kanban board task management and daily standups']
     },
     {
-        id: 1,
+        id: 2,
         company: "QMIND",
         title: "Machine Learning Engineer" ,
         timeStarted: "September 2019",
@@ -29,7 +43,7 @@ const experiencecontent = [
         
     },
     {
-        id: 2,
+        id: 3,
         company: "Queen's University",
         title: "Tutor",
         timeStarted: "September 2018",
@@ -43,7 +57,7 @@ const experiencecontent = [
         longDescription: ['Tutored a range of mathematics, physics and programming courses','Had between 3-5 students each semester averaging 1 hour with each student a week']
     },
     {
-        id: 3,
+        id: 4,
         company: "Citi",
         title: "Software Development Intern" ,
         timeStarted: "June 2020",

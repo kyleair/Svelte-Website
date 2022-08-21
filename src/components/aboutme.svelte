@@ -9,7 +9,7 @@
   <div class="grid-container">
     <div>
       <p>
-        Hello! My name is Kyle Air and I am a new graduate Software Developer
+        Hello! My name is Kyle Air and I am a new graduate Software Engineer
         with a passion for technology, programming, hiking, sports and video
         games. I graduated from Queen's University in 2021 with a degree in
         Engineering.
